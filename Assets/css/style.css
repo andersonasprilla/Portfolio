@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: #31343d;
+    color: #fff;
+  }
+
+  h1 {
+    display: flex;
+      align-items: center;
+      justify-content: left;
+      margin: 0;
+      font-size: 3em; /* Adjusted font size for better readability */
+      background-color: #b9c6ae;
+      color: #31343d;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+      border-bottom: 2px solid #31343d; /* Add a bottom border */
+      padding: 20px; /* Add padding for better spacing */
+  }
+
+  nav ul {
+    justify-content: space-between;
+    min-width: 300px;
+  }
+
+  nav li {
+    margin-right: 20px;
+    display: inline;
+}
+
+  nav a {
+    color: #b9c6ae;
+    font-weight: lighter;
+    text-decoration:underline;
+    font-size: 120%;
+  }
+
+  nav a:hover {
+    background-color: #f0f0f0;
+}
+
+.image-section {
+    position: relative;
+    width: 100%;
+    height: 403%;
+    align-items:end;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+  }
+
+  h2 {
+    position: absolute;
+    top: 80%; /* Adjust as needed */
+    left: 85%;
+    transform: translate(-50%, -50%);
+    color: #bd0000; /* Set the text color */
+    z-index: 1; /* Place the h2 on top of the image */
+    background-color: black;
+}
+
+.info-container  {
+    position: relative;
+    align-items: center;
+}
