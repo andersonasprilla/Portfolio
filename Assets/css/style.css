@@ -17,17 +17,18 @@ body {
       align-items: center;
       justify-content: left;
       margin: 0;
-      font-size: 3em; /* Adjusted font size for better readability */
+      font-size: 3em; 
       background-color: #b9c6ae;
       color: #31343d;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
-      border-bottom: 2px solid #31343d; /* Add a bottom border */
-      padding: 20px; /* Add padding for better spacing */
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+      border-bottom: 2px solid #31343d; 
+      padding: 20px; 
   }
 
   p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    padding: 1em;
   }
 
   nav ul {
@@ -51,43 +52,69 @@ body {
     background-color: #f0f0f0;
 }
 
-.image-section {
+.image-section img{
     position: relative;
     width: 100%;
-    height: 403%;
+    height: 300px;
     align-items:end;
 }
 
-img {
-    width: 100%;
-    height: 300px;
-  }
+
 
   h2 {
     position: absolute;
-    top: 80%; /* Adjust as needed */
+    top: 80%; 
     left: 85%;
     transform: translate(-50%, -50%);
-    color: #bd0000; /* Set the text color */
-    z-index: 1; /* Place the h2 on top of the image */
+    color: #bd0000; 
+    z-index: 1; 
     background-color: black;
 }
+
+
 
 .container {
   display: flex;
   margin-bottom: 20px;
-  
 }
 
-.left-container {
+.description {
+  display: flex;
   padding: 20px;
   border-right: 4px solid #ccc; 
-  width: 200px; /* Set a fixed width for the left container */
+  min-width: 300px; 
+}
+
+h3 {
+  font-size: 40px;
+  justify-content: right;
 }
 
 .right-container {
   padding: 20px;
- 
+  flex-wrap: wrap;
 }
+
+.flex-container {
+  display: block;
+  border: 3px solid black;
+  margin: 5px;
+}
+
+.main-project-image {
+ width: 100%;
+ height: 50%;
+ margin: 5px;
+ border: 3px solid aqua;
+}
+
+.project-image {
+  width: 45%;
+  height: 20%;
+  margin: 5px;
+  border: 3px solid aqua;
+}
+
+
 
 
