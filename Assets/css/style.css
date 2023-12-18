@@ -10,6 +10,7 @@ body {
     padding: 1%;
     background-color: #31343d;
     color: #fff;
+    flex-wrap: wrap;
   }
 
   h1 {
