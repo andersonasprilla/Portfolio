@@ -10,10 +10,9 @@
 </head>
 
 <body>
-  <header>
+  <header class="container">
     <h1>Luis Asprilla</h1>
     <nav>
-      <ul>
         <li><a href="#about-me">About Me</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#contact-me">Contact Me</a></li>
@@ -22,15 +21,14 @@
   </header>
 
   <main>
-    <section class="image-section">
-      <img src="./Assets/images/BackGround Image.jpg" alt=" BackGround" />
+    <article class="container">
+      <img src="./Assets/images/BackGround Image.jpg" alt=" Background" />
 
-    </section>
-    <!-- About Me Section -->
+    </article>
     <section>
-      <section class="container">
+      <article class="container">
         <aside class="description">
-          <h2 id="about-me">About me</h2>
+          <h2>About me</h2>
         </aside>
         <div class="right-container">
           <p>
@@ -50,44 +48,54 @@
             but also resonate with the needs and preferences of users.
           </p>
         </div>
-      </section>
-      </div>
-
-      <!-- Work Section -->
-      <section class="container">
-        <aside class="description">
-          <h2 id="work">Work</h2>
-        </aside>
-        <figure class="flex-container">   
-            <img class="main-project-image" src="https://placehold.co/800x400" alt="challenge-1 image" >
-            <h3>Main Project</h3>  
-            <img class="project-image" src="https://placehold.co/800x400" alt="challenge-1 image" >  
-            <img class="project-image" src="https://placehold.co/800x400" alt="challenge-1 image" > 
-            <img class="project-image" src="https://placehold.co/800x400" alt="challenge-1 image" > 
-            <img class="project-image" src="https://placehold.co/800x400" alt="challenge-1 image" > 
-              
-        </figure >
-        
-        
-      </section>
-
-      <!-- Contact Me Section -->
-      <section class="container">
-        <aside class="description">
-          <h2 id="contact-me">Contact me</h2>
-        </aside>
-        <section class="right-container">
-          <ul>
-            <li>
-              <a href="https://github.com/andersonasprilla">GitHub</a>
-              <a href="https://www.linkedin.com/in/andersonasprilla/">LinkedIn</a>
-              <a href="anderson.asprilla@gmail.com">Email</a>
-            </li>
-          </ul>
-        </section>
-      </section>
+      </article>
     </section>
-  </main>
+    
+    <!-- Work Section -->
+    <section class="container">
+      <aside class="description">
+        <h2>Work</h2>
+      </aside>
+      <figure class="flex-container">
+        <a href="https://andersonasprilla.github.io/Agile-Project-Management">
+          <img class="main-project-image" src="./Assets/images/main-project.jpg" alt="challenge-1 image">
+        </a>
+    
+        <div class="image-pair">
+          <a href="https://dsxpert.com">
+            <img class="project-image" src="./Assets/images/dsxpert.png" alt="challenge-1 image">
+          </a>
+    
+          <a href="#">
+            <img class="project-image" src="./Assets/images/project-image-3.webp" alt="challenge-1 image">
+          </a>
+        </div>
+    
+        <div class="image-pair">
+          <a href="#">
+            <img class="project-image" src="./Assets/images/project-image-4.jpeg" alt="challenge-1 image">
+          </a>
+    
+          <a href="#">
+            <img class="project-image" src="./Assets/images/project-image-5.jpeg" alt="challenge-1 image">
+          </a>
+        </div>
+      </figure>
+    </section>
+    
+    <!-- Contact Me Section -->
+<section class="container">
+  <aside class="description">
+    <h2>Contact me</h2>
+  </aside>
+  <section class="right-container">
+    <ul>
+      <li><a href="https://github.com/andersonasprilla">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/andersonasprilla/">LinkedIn</a></li>
+      <li><a href="mailto:anderson.asprilla@gmail.com">Email</a></li>
+    </ul>
+  </section>
+</section>
 
 </body>
 
