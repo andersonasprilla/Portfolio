@@ -14,6 +14,7 @@ header {
   background-color: #31343d;
   color: #fff;
   flex-wrap: wrap;
+  padding: 10px;
 }
 
 h1 {
@@ -44,7 +45,7 @@ nav a {
   color: #b9c6ae;
   font-weight: lighter;
   text-decoration: none;
-  font-size: 120%;
+  font-size: 130%;
   transition: color 0.3s ease-in-out;
 }
 
@@ -84,11 +85,11 @@ p {
 }
 
 .description {
-  background-color: #f8f8f8; /* Choose a color that complements your design */
+  background-color: #e6e6e6; /* Choose a color that complements your design */
   padding: 20px;
   border-right: 4px solid #ccc;
   min-width: 300px;
-  text-align: right;
+  text-align: left;
 }
 
 /* Add a bit of margin to the top of each section */
@@ -152,39 +153,39 @@ section {
 
 
 .flex-container {
-  display: block;
-  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust as needed */
+  align-items: center; /* Adjust as needed */
 }
 
 .main-project-image {
- width: 100%;
- height: 30vh;
- margin: 5px;
- border: 4px solid #45b69c;
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+  border: 4px solid #45b69c;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
 .project-image {
-  width: 45%;
-  height: 20%;
-  margin: 5px;
+  width: 48%; /* Set the width to 48% for project-image-2 to project-image-5 */
+  height: 150px; /* Adjust the height as needed */
+  object-fit: cover;
   border: 4px solid #45b69c;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 10px; /* Add margin for spacing */
+  margin: 3px;
+}
+
+.project-image:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
 }
 
 @media screen and (max-width: 600px) {
-  h1 {
-    font-size: 2em;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav li {
-    margin: 10px 0;
+  .project-image {
+    width: 100%; /* Full width on smaller screens */
   }
 }
-
-
-
-
