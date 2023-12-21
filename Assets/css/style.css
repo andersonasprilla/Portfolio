@@ -17,6 +17,10 @@ header {
   padding: 10px;
 }
 
+.background-image {
+  width: 100%;
+}
+
 h1 {
   margin: 0;
   font-size: 3.5em;
@@ -103,14 +107,14 @@ section {
 
 /* Style for the h2 in the description */
 .description h2 {
-  font-size: 24px;
+  font-size: 30px;
   color: #31343d;
   margin-bottom: 10px; /* Adjusted for better spacing */
 }
 
 /* Style for the p in the description */
 .description p {
-  font-size: 18px;
+  font-size: 28px;
   color: #555;
   line-height: 1.6; /* Adjusted for better readability */
 }
@@ -122,6 +126,8 @@ section {
 
 .right-container p {
   margin-bottom: 20px;
+  font-size: 16px;
+  font-family: se;
 }
 /* Style for the links in the Contact Me section */
 .right-container ul {
@@ -189,9 +195,22 @@ section {
 
 
 .project-image:hover,
-.main-project-image:hover {
+.main-project-image:hover{
   transform: scale(1.05); /* Slightly scale up on hover */
+  opacity: 1;
 }
+
+
+#background-image{
+  width: 100%;
+  height: 1vh;
+  object-fit: cover;
+}
+
+
+
+
+
 
 
 
