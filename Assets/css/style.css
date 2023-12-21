@@ -127,7 +127,7 @@ section {
 .right-container p {
   margin-bottom: 20px;
   font-size: 16px;
-  font-family: se;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /* Style for the links in the Contact Me section */
 .right-container ul {
