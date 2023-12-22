@@ -26,7 +26,7 @@ To run this project locally, follow these steps:
    cd portfolio
 2. Open the index.html file in your preferred web browser.
 
-![image](./Assets/images/readme_image.png)
+![Badges](./Assets/images/readme_image.png)
 
 
 
