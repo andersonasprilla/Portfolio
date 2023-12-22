@@ -21,7 +21,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/anderson0626/portfolio.git
+   git clone https://github.com/andersonasprilla/portfolio.git
    
    cd portfolio
 2. Open the index.html file in your preferred web browser.
