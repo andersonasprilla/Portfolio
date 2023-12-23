@@ -34,10 +34,6 @@ h1 {
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  min-width: 300px;
-  margin: 0;
-  padding: 0;
 }
 
 nav li {
@@ -53,10 +49,6 @@ nav a {
   transition: color 0.3s ease-in-out;
 }
 
-nav a:visited {
-  color: #31343d;
-}
-
 nav a:hover {
   background-color: #f0f0f0;
   color: #31343d;
@@ -70,7 +62,7 @@ nav a:hover {
  
 
  /* Style for the 'p' element */
-p {
+ p {
   font-family: 'Helvetica', sans-serif;
   padding: 1em;
   line-height: 1.8;
@@ -196,7 +188,6 @@ section {
   height: .5vh;
   object-fit: cover;
 }
-
 
 
 /* Mobile Styles */
